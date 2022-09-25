@@ -95,6 +95,7 @@ h3 {
 }
 /* Padrões*/
 
+/* Header style */
 header {
 	background-color: var(--gray-colors-800);
 	width: 100%;
@@ -133,3 +134,47 @@ header nav ul li:last-child {
 header nav .btn-primary {
 	padding: 1rem 3.4rem;
 }
+/* Header style */
+
+/* First section style */
+.s1 {
+	padding: 7.2rem 0rem;
+}
+
+.s1 .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.s1 .text {
+	width: 100%;
+	max-width: 64rem;
+	margin: 0 auto;
+}
+
+.s1 .text h1 {
+	margin-bottom: 2rem;
+}
+
+.s1 .text p {
+	margin-bottom: 5.6rem;
+	max-width: 48.8rem;
+	color: var(--gray-colors-300);
+	font-size: 1.8rem;
+	line-height: 150%;
+}
+
+.s1 .hero .text .btn-primary {
+	padding: 1.7rem 3.7rem;
+}
+.s1 .image {
+	width: 100%;
+	max-width: 48.8rem;
+	height: 49.6rem;
+	background-color: var(--gray-colors-800);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+/* First section style */

@@ -1,4 +1,7 @@
 @media (max-width: 1200px) {
+	.s1 .text {
+		max-width: 49%;
+	}
 }
 @media (max-width: 991px) {
 	header nav {
@@ -7,13 +10,49 @@
 	header .menu-mobile {
 		display: block;
 	}
+
+	.s1 .container {
+		flex-direction: column;
+	}
+
+	.s1 .text {
+		max-width: 100%;
+		margin-bottom: 40px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.s1 .text h1,
+	p {
+		text-align: center;
+	}
 }
 @media (max-width: 768px) {
 }
 @media (max-width: 600px) {
 }
 @media (max-width: 480px) {
+	html {
+		font-size: 55%;
+	}
 	header .logo {
 		max-width: 13rem;
+	}
+	.s1 {
+		padding: 4rem 0px;
+	}
+
+	.s1 .text h1 {
+		font-size: 4.2rem;
+	}
+	.s1 .text p {
+		margin-bottom: 3rem;
+	}
+	.s1 .image {
+		height: 30rem;
+	}
+	.s1 .image img {
+		max-width: 100px;
 	}
 }
