@@ -44,6 +44,7 @@ button {
 	--gray-colors-300: #393c40;
 	--white: #fff;
 	--light-white: #e6ebf2;
+	--gray-colors-200: rgba(28, 29, 31, 0.5);
 }
 /* Criando variáveis para as cores do site */
 
@@ -150,7 +151,6 @@ header nav .btn-primary {
 .s1 .text {
 	width: 100%;
 	max-width: 64rem;
-	margin: 0 auto;
 }
 
 .s1 .text h1 {
@@ -178,3 +178,68 @@ header nav .btn-primary {
 	justify-content: center;
 }
 /* First section style */
+/* Main section style */
+.main-section {
+	background-color: var(--gray-colors-100);
+	padding-top: 10.4rem;
+	padding-bottom: 12rem;
+}
+
+.main-section .main-area {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+	padding-bottom: 12.5rem;
+}
+
+.main-section .title {
+	display: flex;
+	flex-direction: column;
+}
+.main-section .title.center {
+	align-items: center;
+}
+.main-section .title p {
+	margin-top: 0.8rem;
+}
+
+.main-section p {
+	color: var(--white-colors-text);
+}
+
+.bg-cards {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 4.8rem;
+}
+.bg-cards .card {
+	background-color: var(--gray-colors-200);
+	max-width: 38.4rem;
+	width: 100%;
+	height: 38.2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 6.4rem;
+}
+.bg-cards .card .card-info {
+	margin-top: 4rem;
+	max-width: 28.8rem;
+	line-height: 150%;
+}
+.bg-cards .card .card-info h3 {
+	text-align: center;
+}
+
+.bg-cards .card .card-info p {
+	text-align: center;
+	margin-top: 0.8rem;
+}
+.bg-cards .card.white {
+	background-color: var(--white);
+}
+.bg-cards .card.white h3 {
+	color: var(--gray-colors-100);
+}
+.bg-cards .card.white p {
+	color: var(--gray-colors-300);
+}
+/* Main section style */
